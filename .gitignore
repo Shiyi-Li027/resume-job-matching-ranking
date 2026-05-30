@@ -1,0 +1,38 @@
+# virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# system files
+.DS_Store
+.Rhistory
+
+# data files
+data/
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# docs files
+docs/
+*.md
+*.docx
+
+!README.md
+
+
+# large/generated outputs
+results/
+*.png
+*.jpg
+
+
+# notebook checkpoints
+.ipynb_checkpoints/
+
+# messy orchestration scripts
+src/main.py
